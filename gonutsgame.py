@@ -18,7 +18,7 @@ screen = pygame.display.set_mode((xmax,ymax))
 
 clock = pygame.time.Clock()
 
-background = pygame.image.load('factoryfromtop3.png')
+background = pygame.image.load('field.jpg')
 background = pygame.transform.scale(background, (960, 640))
 
 ball1 = pygame.image.load('bird1.png').convert()
